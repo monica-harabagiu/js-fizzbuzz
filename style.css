@@ -1,0 +1,39 @@
+body {
+    background-color: #141322;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.box {
+    border: 1px solid #00B8FF;
+    width: 70px;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .8rem;
+}
+
+.fizz-buzz {
+    border-color: #00FE9F;
+    box-shadow: 0 0 10px #00FE9F;
+}
+
+.fizz {
+    border-color: #df47fd;
+    box-shadow: 0 0 10px #df47fd;
+}
+
+.buzz {
+    border-color: #1d43ff;
+    box-shadow: 0 0 10px #1d43ff;
+}

@@ -8,19 +8,19 @@ const squares = document.getElementById("container")
 for (let i = 1; i <= 100; i++) {
 
     if ((i % 3) === 0 && (i % 5) === 0) {
-        const littleSquare = `<div class="fizz-buzz">FizzBuzz</div>`
+        const littleSquare = `<div class="box fizz-buzz">FizzBuzz</div>`
         squares.innerHTML += littleSquare
         console.log("FizzBuzz")
     } else if ((i % 3) === 0) {
-        const littleSquare = `<div class="fizz">Fizz</div>`
+        const littleSquare = `<div class="box fizz">Fizz</div>`
         squares.innerHTML += littleSquare
         console.log("Fizz")
     } else if ((i % 5) === 0) {
-        const littleSquare = `<div class="buzz">Buzz</div>`
+        const littleSquare = `<div class="box buzz">Buzz</div>`
         squares.innerHTML += littleSquare
         console.log("Buzz")
     } else {
-        const littleSquare = `<div class="number">${i}</div>`
+        const littleSquare = `<div class="box number">${i}</div>`
         squares.innerHTML += littleSquare
         console.log(i)
     }
